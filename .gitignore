@@ -1,3 +1,11 @@
+# Ignore Enron dataset and extracted files
+maildir/
+enron_mail_*/
+*.tar
+*.tar.gz
+*.zip
+*.7z
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

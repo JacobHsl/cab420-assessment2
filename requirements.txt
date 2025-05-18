@@ -1,0 +1,17 @@
+keras 
+matplotlib 
+seaborn 
+scikit-learn 
+scikit-image 
+statsmodels 
+opencv-python 
+pandas 
+gensim 
+pillow 
+tensorflow-datasets 
+xgboost 
+jupyter 
+ipython 
+jupyterlab 
+openpyxl
+tqdm
