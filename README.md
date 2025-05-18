@@ -6,8 +6,8 @@ This project uses the [Enron Email Dataset](https://www.cs.cmu.edu/~enron/) to c
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repo-url>
-cd <your-repo-directory>
+git clone git@github.com:JacobHsl/cab420-assessment2.git
+cd cab420-assessment2/
 ```
 
 ### 2. Create a Virtual Environment (Optional but Recommended)
@@ -40,13 +40,13 @@ Run the following `curl` command to download the dataset archive:
 curl -O https://www.cs.cmu.edu/~enron/enron_mail_20150507.tar.gz
 ```
 
-Place this file in the project root directory — the data extraction code will handle the rest.
+MAke sure this file is in the project root directory, the code will extract this file.
 
 ---
 
 ## Launch Jupyter Lab
 
-If not already installed, run:
+Jupyter lab should be installed via the requirements, if not run:
 
 ```bash
 pip install jupyterlab
@@ -57,8 +57,6 @@ Then launch:
 ```bash
 jupyter lab
 ```
-
-Open the notebook provided (e.g., `preprocessing.ipynb`) to begin processing the dataset and training models.
 
 ---
 
